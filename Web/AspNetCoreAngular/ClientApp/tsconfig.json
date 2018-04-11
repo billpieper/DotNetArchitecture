@@ -1,0 +1,20 @@
+﻿{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"declaration": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"lib": ["es2017", "dom"],
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"outDir": "./dist/out-tsc",
+		"pretty": true,
+		"sourceMap": true,
+		"target": "es5",
+		"typeRoots": ["node_modules/@types"],
+        "removeComments": true
+	},
+	"exclude": ["node_modules"]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "aspnetcoreangular"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "tsconfig": "tsconfig.app.json",
+      "prefix": "app",
+      "styles": [
+        "styles.scss"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "development": "environments/environment.ts",
+        "production": "environments/environment.production.ts",
+        "staging": "environments/environment.staging.ts"
+      }
+    }
+  ],
+  "defaults": {
+    "styleExt": "scss",
+    "build": {
+      "progress": true
+    }
+  },
+  "warnings": {
+    "typescriptMismatch": false
+  }
+}

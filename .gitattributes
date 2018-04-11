@@ -1,0 +1,153 @@
+﻿# Normalize line endings
+* text=auto
+
+# GIT
+*.gitattributes	text
+.gitignore		text
+*.md			text
+
+# Documents
+*.doc	diff=astextplain
+*.docx	diff=astextplain
+*.pdf	diff=astextplain
+*.rtf	diff=astextplain
+*.md	text
+*.csv	text
+*.sql	text
+
+# Source Code
+*.bat   text eol=crlf
+*.css   text
+*.htm   text
+*.html  text
+*.ini   text
+*.js    text
+*.json  text
+*.jsx   text
+*.sass  text
+*.scss  text
+*.sql   text
+*.ts    text
+*.tsx   text
+*.xml   text
+*.xhtml	text
+
+# Docker
+*.dockerignore	text
+Dockerfile		text
+
+# Documentation
+*.markdown   text
+*.md         text
+*.mdwn       text
+*.mdown      text
+*.mkd        text
+*.mkdn       text
+*.mdtxt      text
+*.mdtext     text
+*.txt        text
+AUTHORS      text
+CHANGELOG    text
+CHANGES      text
+CONTRIBUTING text
+COPYING      text
+copyright    text
+*COPYRIGHT*  text
+INSTALL      text
+license      text
+LICENSE      text
+NEWS         text
+readme       text
+*README*     text
+TODO         text
+
+# Linters
+.csslintrc    text
+.eslintrc     text
+.htmlhintrc   text
+.jscsrc       text
+.jshintrc     text
+.jshintignore text
+.stylelintrc  text
+
+# Configs
+*.cnf          text
+*.conf         text
+*.config       text
+.editorconfig  text
+.gitattributes text
+.gitconfig     text
+*.npmignore    text
+*.yaml         text
+*.yml          text
+Makefile       text
+makefile       text
+
+# Graphics
+*.ai   binary
+*.bmp  binary
+*.eps  binary
+*.gif  binary
+*.ico  binary
+*.jng  binary
+*.jp2  binary
+*.jpg  binary
+*.jpeg binary
+*.jpx  binary
+*.jxr  binary
+*.pdf  binary
+*.png  binary
+*.psb  binary
+*.psd  binary
+*.svg  binary
+*.svgz binary
+*.tif  binary
+*.tiff binary
+*.wbmp binary
+*.webp binary
+
+# Audio
+*.mid  binary
+*.midi binary
+*.mp3  binary
+*.ogg  binary
+
+# Video
+*.3gpp binary
+*.3gp  binary
+*.as   binary
+*.asf  binary
+*.asx  binary
+*.fla  binary
+*.flv  binary
+*.m4v  binary
+*.mng  binary
+*.mov  binary
+*.mp4  binary
+*.mpeg binary
+*.mpg  binary
+*.ogv  binary
+*.swc  binary
+*.swf  binary
+*.webm binary
+
+# Archives
+*.7z  binary
+*.gz  binary
+*.jar binary
+*.rar binary
+*.tar binary
+*.zip binary
+
+# Fonts
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.woff  binary
+*.woff2	binary
+
+# Executables
+*.exe binary
+
+# C#
+*.cs diff=csharp
